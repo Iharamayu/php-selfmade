@@ -1,0 +1,208 @@
+body {
+    margin-top: 46px; 
+    padding: 0;
+    height: auto;
+    background-color: rgba(217, 217, 217, 0.1);
+    font-family: "Alef";
+}
+
+.container {
+    width: 1200px;
+    /* 画面全体の幅 */
+    margin: 0 auto;
+    /* 中央寄せ */
+}
+
+.share{
+    color: black;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: right;
+    font-size: 20px;
+}
+
+.search {
+    width: 900px;
+    /* 入力欄の幅 */
+    margin: 0 auto;
+    /* 中央寄せ */
+    padding: 0 150px;
+    /* 左右に150pxの余白 */
+    background-color: rgba(223, 226, 234, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.search form {
+    display: flex;
+}
+
+.search_box {
+    width: 100%;
+    /* 入力欄を親要素いっぱいに広げる */
+    box-sizing: border-box;
+    background-color: rgba(223, 226, 234, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+    border: none;
+    outline: none;
+    font-size: 24px;
+}
+
+/*日記投稿部分*/
+
+.content {
+    width: 100%;
+}
+
+.diary-entry {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+
+}
+
+.diary_box {
+    display: flex;
+}
+
+.date_wrap {
+    width: 200px;
+    margin: 0 30px 30px 30px;
+}
+
+.date {
+    width: 130px;
+    height: 130px;
+    background-color: #10B1C7;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 36px;
+    font-family: "Alef";
+    margin: 0 auto;
+}
+
+.entry-details {
+    width: 300px;
+
+}
+
+.diary_title {
+    font-size: 24px;
+    display: block;
+    margin-top: 10px;
+}
+
+.diary_content {
+    font-size: 20px;
+    display: block;
+    margin-top: 20px;
+}
+
+.sharedBy {
+    text-align: right;
+    padding-right: 50px;
+    padding-bottom: 10px;
+}
+
+.img {
+    width: 90%;
+    height: 40%;
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto;
+}
+
+.img img {
+    width: 100%;
+    height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    margin-right: 5px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+/*投稿ボタン*/
+.post {
+    background-color: #AED265;
+    width: 1200px;
+    border: none;
+    position: fixed;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.post img {
+    width: 50px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 600px;
+        /* 画面全体の幅 */
+        margin: 0 auto;
+        /* 中央寄せ */
+    }
+
+    .search{
+        width: 600px;
+        padding: 0;
+    }
+
+    .post {
+        width:600px;
+    }
+
+    .diary-entry {
+        width: 100%;
+        margin: 0 auto;
+        padding: 30px 0;
+    
+    }
+
+
+}
+
+/* 375px以上のデバイスの場合の幅 */
+@media screen and (max-width: 375px) {
+
+    .container {
+        width: 375px;
+        padding: 0;
+    }
+
+    .search{
+        width: 375px;
+        padding: 0;
+    }
+
+    .diary-entry {
+        width: 375px;
+    }
+
+    .post {
+        width:375px;
+    }
+
+    .img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .img img {
+        width: 370px;
+        height: 370px;
+        max-width: 100%;
+        max-height: 100%;
+        margin-right: 5px;
+    }
+
+}
+
