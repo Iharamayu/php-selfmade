@@ -1,0 +1,249 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+    appearance: none;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    font: inherit;
+    text-align: inherit;
+    color: inherit;
+    line-height: normal;
+    text-transform: none;
+    overflow: visible;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+div {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background: linear-gradient(to top, #79C2EF 0%, #CAE5E3 100%);
+    font-family: "Alef";
+}
+
+.card-body {
+    margin: 0 auto;
+    width: 40%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.title {
+    display: block;
+    margin: 100px auto 20px auto;
+    width: 40%;
+    font-family: "Alef";
+    font-size: 36px;
+    color: #fff;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+form {
+    padding: 10px;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 20px
+}
+
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select {
+    display: block;
+    margin: 5px auto 10px auto;
+    width: 60%;
+    font-size: 18px;
+}
+
+.login_btn {
+    background-color: #10B1C7;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.register_btn {
+    background-color: #AED265;
+    width: 120px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px 0;
+    margin: 10px auto;
+
+}
+
+.register_btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.cancel_btn {
+    background-color: #AED265;
+    width: 120px;
+    margin: 10px auto 10px auto;
+    padding: 5px 0px 5px 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cancel_btn a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.alert{
+    color: red;
+}
